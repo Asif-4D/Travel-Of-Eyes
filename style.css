@@ -26,8 +26,26 @@ a{
     display: block;
     text-decoration: none;
 }
-
-
+.para-common-style{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.common-gap-24{
+    margin-bottom: 24px;
+}
+.common-btn-style{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.375rem;
+    font-weight: 800;
+    padding: 14px 35px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
 
 /*
@@ -140,3 +158,25 @@ a{
     align-items: center;
 }
 
+/* Popular tour area style */
+
+.popular-tours-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.popular-tours-description{
+    width: 45%;
+}
+.popular-tours-description h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-tour-img{
+    width: 45%;
+}
+.popular-tour-img img{
+    width: 100%;
+}
