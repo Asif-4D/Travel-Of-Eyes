@@ -18,7 +18,7 @@
     .header-top-menu ul li a {
         margin: 10px 0;
         margin-left: 0;
-       
+        padding-left: 0;  
     }
     .webtitle{
         width: 100%;
