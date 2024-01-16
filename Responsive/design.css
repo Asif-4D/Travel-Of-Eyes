@@ -1,0 +1,33 @@
+/* Responsive for mobile devices */
+
+@media screen and (max-width: 600px){
+    /* header top */
+
+
+    /* header body */
+    
+
+    .header-body-rapper {
+        padding: 0;
+        padding-bottom: 32px;
+    }
+    .header-body-rapper h1{
+        font-size: 1.375rem;
+        font-weight: 800;
+        margin-bottom: 24px;
+        padding-top: 30px;
+    }
+    .header-body-rapper p{
+        padding: 0 10px;
+    }
+    .header-body-menu-rapper{
+        width: 80%;
+        padding: 20px 0;
+    }
+    .header-body-ul-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
