@@ -129,10 +129,38 @@
     }
 
 
-
-
-
-
+    /* News letter */
+    
+    .newsletter-area{
+        margin-bottom: 20px;
+    }
+    .newsletter-rapper{
+        flex-direction: column;
+    }
+    .nowsletter-form{
+        width: 88%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .nowsletter-form h3{
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    .nowsletter-form input{
+        width: 90%;
+    }
+    .newsletter-img{
+        width: 100%
+    }
+    .saving-ticket{
+        width: 35%;
+    }
+    .saving-ticket h5{
+        font-size: 14px;
+    }
+    .saving-ticket h3{
+        font-size: 20px;
+    }
 
 
 

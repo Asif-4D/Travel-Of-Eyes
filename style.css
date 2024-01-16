@@ -340,6 +340,132 @@ I was tried to solve this Second way.
 
 
 
+
+
+/* Pros and cons area style (Extra Section Added) */
+
+.prose-cons-area{
+    margin-bottom: 100px;
+}
+.pros-cons-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+.porse-cons-rapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1eeec;
+    border-radius: 16px;
+    padding: 50px;
+}
+.porse-cons{
+    width: 31.5%;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 16px;
+    padding: 20px 0;
+}
+.porse-cons p{
+    font-size: 50px;
+    font-weight: 800;
+    color: #FF5400;
+}
+.pros-title{
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+ul li a{
+    margin: 5px;
+    color: #424247;
+    font-weight: 600;
+    transition: 0.3s;
+}
+ul li a:hover{
+    color: crimson;
+}
+
+
+
+/* News letter area style */
+
+.newsletter-area{
+    margin-bottom: 100px;
+}
+.newsletter-rapper{
+    display: flex;
+    justify-content: space-between;
+}
+.nowsletter-form{
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px; 
+}
+.newsletter-img{
+    width: 50%;
+    position: relative;
+}
+.newsletter-img img{
+    width: 100%;
+}
+.nowsletter-form h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.nowsletter-form input{
+    display: block;
+    width: 95%;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px;
+    border: none;
+    margin-bottom: 16px;
+}
+.nowsletter-form button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.hr-style2{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 24px 0;
+}
+.saving-ticket{
+    position: absolute;
+    right: 10px;
+    bottom: 55px;
+    /* transform: translate(-50% -50%); */
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 15px;
+    width: 35%;
+    text-align: center;
+    transform: rotate(-19.628deg);
+}
+.saving-ticket h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+.saving-ticket h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+
 /* footer area style */
 
 .footer-area{
@@ -381,7 +507,7 @@ I was tried to solve this Second way.
     text-align: center;
     margin-bottom: 33px;
 }
-.hr-style{
+.hr-style1{
     width: 70%;
     margin: 0 auto;
     background: rgba(19, 19, 24, 0.10);
