@@ -42,6 +42,9 @@ a{
 .common-gap-48{
     margin-bottom: 48px;
 }
+.common-gap-16{
+    margin-bottom: 16px;
+}
 .common-btn-style{
     border-radius: 8px;
     background: #FF5400;
@@ -282,6 +285,52 @@ I was tried to solve this Second way.
     transform: translate(-50%, -50%);
     color: #FFF;
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+/* Choose us area style */
+
+.choose-us-area{
+    margin: 100px 0;
+}
+.chooseus-container-top{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.hotels{
+    padding: 32px;
+    width: 45%;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.services{
+    padding: 32px;
+    width: 45%;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.icon i{
+    font-size: 3.25rem;
+    color: #FF5400;
+    margin-bottom: 32px;
+}
+.guarentee{
+    padding: 32px;
+    width: 45%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.guarentee h3{
+    color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
 }
