@@ -45,6 +45,9 @@ a{
 .common-gap-16{
     margin-bottom: 16px;
 }
+.common-gap-35{
+    margin-bottom: 35px;
+}
 .common-btn-style{
     border-radius: 8px;
     background: #FF5400;
@@ -333,4 +336,58 @@ I was tried to solve this Second way.
     color: #131318;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+
+
+/* footer area style */
+
+.footer-area{
+    padding: 100px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.footer-description h2{
+    font-size: 2rem;
+    color: #131318;
+    font-weight: 800;
+    margin-left: 15px;
+}
+.footer-description span{
+    font-size: 2rem;
+    color: #FF5400;
+    font-weight: 800;
+
+}
+.social-icon ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.social-icon ul li a{
+    font-size: 20px;
+    color: #FF5400;
+    font-size: 30px;
+}
+.para-width{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 33px;
+}
+.hr-style{
+    width: 70%;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 50px auto;
+}
+.align-text{
+    text-align: center;
+    align-items: center;
 }
