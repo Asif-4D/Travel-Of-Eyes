@@ -9,7 +9,16 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        text-align: center;
         width: 100%;
+        gap: 0 20px;
+        margin-top: 20px;
+        
+    }
+    .header-top-menu ul li a {
+        margin: 10px 0;
+        margin-left: 0;
+       
     }
     .webtitle{
         width: 100%;
@@ -127,6 +136,32 @@
     .para-width{
         width: 100%;
     }
+
+
+
+
+    /* Pros and Cons (Extra section added) */
+
+    .prose-cons-area{
+        margin-bottom: 20px;
+    }
+    .pros-cons-title {
+        text-align: center;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .porse-cons-rapper {
+       flex-direction: column;
+    }
+    .porse-cons {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pros-title {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
 
 
     /* News letter */
