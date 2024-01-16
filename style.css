@@ -262,13 +262,7 @@ I was tried to solve this Second way.
 
 /* Destination area style */
 
-.gal-img-1{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
-
-.gal-img-2{
+.gal-img-1,.gal-img-2{
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;

@@ -63,4 +63,31 @@
         margin-top: 24px;
     }
 
+    /* Your Destination */
+
+    .gal-img-1,  .gal-img-2,  .gal-img-3{
+        flex-direction: column;
+        margin-bottom: 0;
+        
+
+    }
+    .gal-img-rapper img{
+        width: 100%;
+        height: 176px;
+        margin-bottom: 16px;
+    }
+    .destination-description h2{
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    .destination-description p{
+        font-size: 0.875rem;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .gal-img-rapper span{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
 }
