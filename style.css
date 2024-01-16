@@ -31,8 +31,16 @@ a{
     font-size: 1rem;
     font-weight: 400;
 }
+.text-align-center{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
 .common-gap-24{
     margin-bottom: 24px;
+}
+.common-gap-48{
+    margin-bottom: 48px;
 }
 .common-btn-style{
     border-radius: 8px;
@@ -46,7 +54,12 @@ a{
     cursor: pointer;
     margin-top: 10px;
 }
-
+.common-title-style{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
 
 /*
 ===========================================
@@ -179,4 +192,102 @@ a{
 }
 .popular-tour-img img{
     width: 100%;
+}
+
+
+/* Destination area style */
+
+
+/* 
+I was tried to solve this first way.
+
+
+.gal-img-1{
+    grid-area: gal-img-1;
+}
+.gal-img-2{
+    grid-area: gal-img-2;
+}
+.gal-img-3{
+    grid-area: gal-img-3;
+}
+.gal-img-4{
+    grid-area: gal-img-4;
+}
+.gal-img-5{
+    grid-area: gal-img-5;
+}
+.gal-img-6{
+    grid-area: gal-img-6;
+}
+.gal-img-7{
+    grid-area: gal-img-7;
+}
+
+.destination-gallary{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "gal-img-1 gal-img-1 gal-img-2"
+    "gal-img-3 gal-img-4 gal-img-5"
+    "gal-img-6           gal-img-7";
+} */
+
+
+/* 
+I was tried to solve this Second way.
+
+.gal-img-1{
+    display: grid;
+    grid-template-columns:repeat(2,2fr);
+    justify-content: space-between;
+    white-space-collapse: break-spaces;
+
+}
+.gal-img-2{
+    display: grid;
+    grid-template-columns:repeat(3,3fr);
+    justify-content: space-between;
+    white-space-collapse: break-spaces;
+
+}
+.gal-img-3{
+    display: grid;
+    grid-template-columns:repeat(2,2fr);
+    justify-content: space-between;
+    white-space-collapse: break-spaces;
+   
+} */
+
+
+/* Destination area style */
+
+.gal-img-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.gal-img-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.gal-img-3{
+    display: flex;
+    justify-content: space-between;   
+} 
+
+.gal-img-rapper{
+    position: relative;
+}
+.gal-img-rapper span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
