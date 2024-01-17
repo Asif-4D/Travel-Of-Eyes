@@ -147,7 +147,7 @@
     }
     .pros-cons-title {
         text-align: center;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         margin-bottom: 20px;
     }
     .porse-cons-rapper {
@@ -200,19 +200,6 @@
 
 
 
-    /* footer area */
-
-    .footer-description img{
-        width: 10%;
-    }
-    .footer-description h2{
-        font-size: 1.375rem;
-        font-weight: 800;
-        margin-left: 5px;
-    }
-    .footer-description span{
-        font-size: 1.375rem;
-        font-weight: 800;
-    }
+ 
 
 }
